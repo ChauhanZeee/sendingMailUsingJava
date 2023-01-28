@@ -24,7 +24,7 @@ public class emailTemplate {
         //1st step-- creating session for establishing connection with gmail server
         Session session = Session.getInstance(properties, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("submchauhan007@gmail.com", "dxqyvfoguiwgcrub");
+                return new PasswordAuthentication("yourMail@gmail.com", "yourPassword");
             }
         });
         return session;
