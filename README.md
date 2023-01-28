@@ -1,1 +1,1 @@
-# sendingMailUsingJava
+# Sending Mail Using Java
